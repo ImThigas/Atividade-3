@@ -89,7 +89,11 @@ function media(){
            var numerofinal=(numero/(contador));
            console.log(contador)
             a=11;
+            if(!Number.isNaN(numerofinal)){
             alert("A média dos números informados é: "+numerofinal)
+            }else{
+            alert("Até outro dia")
+            }
         }else{
             alert("Até outro dia")
             a=11;
