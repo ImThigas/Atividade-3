@@ -122,3 +122,45 @@ function maior(){
     alert("Até outro dia")
     }
 }
+function segundograu(){
+    var vezes2 = parseInt(prompt("Informe a quantidade de vezes que deseja repetir esta esquação: ", ""))
+    var y= parseInt(y=0)
+    if(vezes2){
+    while(y<vezes2){
+    y++
+    var a = parseFloat(prompt("Informe o coeficiente A: ", ""))
+    if(!Number.isNaN(a)){
+    var b = parseFloat(prompt("Informe o coeficiente B: ", ""))
+    if(!Number.isNaN(b)){
+    var c = parseFloat(prompt("Informe o coeficiente C: ", ""))
+    if(!Number.isNaN(c)){
+        if(a==0 && b==0 && c==0){
+            alert("Igualdade confirmada: 0 = 0")
+        }else if(a==0 && b==0){
+            alert("Coeficientes informados incorretamente")
+        }else if(a==0 && b!=0){
+            alert("Esta é uma equação de primeiro grau. x= "+((c*-1)/b))
+        }else if(a!=0){
+            var delta= parseFloat((b*b)-4*a*c)
+            if(delta<0){
+                alert("Esta é uma equação de segundo grau. \nEsta equação não possui raízes reais. Delta="+delta)
+            }else if(delta==0){
+                alert("Esta é uma equação de segundo grau. \nEsta equação possui duas raízes reais iguais. x' = x''="+(-b/(2*a)))
+            }else if(delta>0){
+                alert("Esta é uma equação de segundo grau. \nEsta equação possui duas raízes reais diferentes. Delta="+delta+" x'="+(((b*-1)+Math.sqrt(delta))/(2*a))+" x''="+(((b*-1)-Math.sqrt(delta))/(2*a)))
+            }
+        }
+    }else{
+        alert("Até outro dia")
+    }
+    }else{
+        alert("Até outro dia")
+    }
+    }else{
+        alert("Até outro dia")
+    }
+}
+}else{
+    alert("Até outro dia")
+}
+}
