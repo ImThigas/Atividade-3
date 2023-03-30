@@ -8,11 +8,11 @@
 body{
     background: #292c35;
 }
-.reddefaultbutton{
+.tomatodefaultbutton{
     background-color: white;
-    color: rgb(255, 0, 0);
+    color: tomato;
     padding: 5px 8px;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid tomato;
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
@@ -22,8 +22,8 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
-.reddefaultbutton:hover{
-    background-color: rgb(255, 0, 0);
+.tomatodefaultbutton:hover{
+    background-color: tomato;
     color: white;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -49,6 +49,44 @@ body{
 }
 .bluedefaultbutton:hover{
     background-color: blue;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.violetdefaultbutton{
+    background-color: white;
+    color: violet;
+    padding: 5px 8px;
+    border: 1px solid violet;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.violetdefaultbutton:hover{
+    background-color: violet;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.crimsondefaultbutton{
+    background-color: white;
+    color: crimson;
+    padding: 5px 8px;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.crimsondefaultbutton:hover{
+    background-color: crimson;
     color: white;
     border: 1px solid rgb(255, 255, 255);
 }
