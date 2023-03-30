@@ -96,3 +96,29 @@ function media(){
         }
     }
 }
+function maior(){
+    var a = parseInt(a=0);
+    var numero = parseFloat(numero=0)
+    var contador = parseInt(contador=0)
+    
+    var maior = parseFloat(prompt("Informe um número: ", ""))
+        if(!Number.isNaN(maior)){
+    while(a<10){
+        var num= parseFloat(prompt("Informe um número: ", ""))
+        if(!Number.isNaN(num)){
+            if(maior>num){
+            }else{
+                maior=num;
+            }
+        }else if(!Number.isNaN(maior)){
+            a=11;
+            alert("O maior número dentre os informados é: "+maior)
+        }else{
+            alert("Até outro dia")
+            a=11;
+        }
+    }
+    }else{
+    alert("Até outro dia")
+    }
+}
