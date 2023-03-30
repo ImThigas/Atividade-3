@@ -75,3 +75,24 @@ function maquina(){
     alert("Até outro dia!")
 }
 }
+function media(){
+    var a = parseInt(a=0);
+    var numero = parseFloat(numero=0)
+    var contador = parseInt(contador=0)
+    while(a<10){
+        var num= parseFloat(prompt("Informe um número: ", ""))
+        if(!Number.isNaN(num)){
+            numero=numero+num;
+            contador++;
+            console.log(numero)
+        }else if(!Number.isNaN(numero)){
+           var numerofinal=(numero/(contador));
+           console.log(contador)
+            a=11;
+            alert("A média dos números informados é: "+numerofinal)
+        }else{
+            alert("Até outro dia")
+            a=11;
+        }
+    }
+}
